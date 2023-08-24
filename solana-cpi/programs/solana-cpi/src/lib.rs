@@ -11,14 +11,14 @@ pub mod solana_cpi {
     use super::*;
 
     pub fn mint_with_identity_depository_cpi(
-        ctx: Context<crate::instructions::MintWithIdentityDepositoryCpi>,
+        ctx: Context<MintWithIdentityDepositoryCpi>,
         collateral_amount: u64,
     ) -> Result<()> {
         instructions::mint_with_identity_depository_cpi(ctx, collateral_amount)
     }
 
     pub fn redeem_from_identity_depository_cpi(
-        ctx: Context<crate::instructions::RedeemFromIdentityDepositoryCpi>,
+        ctx: Context<RedeemFromIdentityDepositoryCpi>,
         redeemable_amount: u64,
     ) -> Result<()> {
         instructions::redeem_from_identity_depository_cpi(ctx, redeemable_amount)

@@ -1,9 +1,11 @@
 use anchor_lang::prelude::*;
+use anchor_spl::token::TokenAccount;
 
 #[derive(Accounts)]
 pub struct MintWithIdentityDepositoryCpi<'info> {
     pub user: Signer<'info>,
-
+    
+    #[account(mut)]
     pub payer: Signer<'info>,
 
     /// The UXD Controller PDA
@@ -21,9 +23,9 @@ pub struct MintWithIdentityDepositoryCpi<'info> {
     pub collateral_mint: AccountInfo<'info>,
 
     /// Token account for user redeemable (redeemable mint)
-    pub user_redeemable: AccountInfo<'info>,
+    pub user_redeemable: Account<'info, TokenAccount>,
     /// Token account for user collateral (collateral mint)
-    pub user_collateral: AccountInfo<'info>,
+    pub user_collateral: Account<'info, TokenAccount>,
 
     /// The UXD Identity Depository PDA (a no transformation depository)
     pub identity_depository: AccountInfo<'info>,
@@ -38,7 +40,6 @@ pub(crate) fn mint_with_identity_depository_cpi(
     ctx: Context<MintWithIdentityDepositoryCpi>,
     collateral_amount: u64,
 ) -> Result<()> {
-    // Controller Signer PDA
     let controller_pda_signer: &[&[&[u8]]] = &[&[b"CONTROLLER", &[ctx.accounts.controller.bump]]];
 
     uxd_cpi::cpi::mint_with_identity_depository(
