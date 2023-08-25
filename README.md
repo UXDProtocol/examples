@@ -37,21 +37,21 @@ A `Depository` account represents one strategy of investment.
 | Redeemable mint (UXD)  | [7kbnvuGBxxj8AG9qp8Scn56muWGaRaFqxg1FsRp3PaFT](https://explorer.solana.com/address/7kbnvuGBxxj8AG9qp8Scn56muWGaRaFqxg1FsRp3PaFT) |
 | Controller             | [3tbJcXAWQkFVN26rZPtwkFNvC24sPT35fDxG4M7irLQW](https://explorer.solana.com/address/3tbJcXAWQkFVN26rZPtwkFNvC24sPT35fDxG4M7irLQW) |
 | Identity Depository    | [BgkHf7mAtNwtnu2uCJqSJWbFdiXCoMBpNZmgVJJmsGLW](https://explorer.solana.com/address/BgkHf7mAtNwtnu2uCJqSJWbFdiXCoMBpNZmgVJJmsGLW) |
-| Credix Depository      | [AGqtEsmCnzQNbSQzM6qmTZ4M5nhJ8WP8CbdNh6eQBuWF](https://explorer.solana.com/address/AGqtEsmCnzQNbSQzM6qmTZ4M5nhJ8WP8CbdNh6eQBuWF) |
 | Mercurial Depository   | [4gMkg5iMaYApKQEJ5MDQCVuZ5HZ8Q5GvKwz2sJxRGwyb](https://explorer.solana.com/address/4gMkg5iMaYApKQEJ5MDQCVuZ5HZ8Q5GvKwz2sJxRGwyb) |
+| Credix Depository      | [AGqtEsmCnzQNbSQzM6qmTZ4M5nhJ8WP8CbdNh6eQBuWF](https://explorer.solana.com/address/AGqtEsmCnzQNbSQzM6qmTZ4M5nhJ8WP8CbdNh6eQBuWF) |
 
 ## Notable **Devnet** accounts
 
 | Program                | Address                                                                                                                                         |
 | ---------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
 | Authority (script key) | [aca3VWxwBeu8FTZowJ9hfSKGzntjX68EXh1N9xpE1PC](https://explorer.solana.com/address/aca3VWxwBeu8FTZowJ9hfSKGzntjX68EXh1N9xpE1PC?cluster=devnet)   |
-| UXD Program            | [EqMrasrCXsbE6mpXaopUH1qip7auwX4AF5UWWpXaLr6u](https://explorer.solana.com/address/EqMrasrCXsbE6mpXaopUH1qip7auwX4AF5UWWpXaLr6u?cluster=devnet) |
+| UXD Program            | [CW5VzSk7WC4NPyuNt19VFev9FUHhyk5xxHTj2DUWBexu](https://explorer.solana.com/address/CW5VzSk7WC4NPyuNt19VFev9FUHhyk5xxHTj2DUWBexu?cluster=devnet) |
 | Collateral mint (USDC) | [Gh9ZwEmdLJ8DscKNTkTqPbNwLNNBjuSzaG9Vp2KGtKJr](https://explorer.solana.com/address/Gh9ZwEmdLJ8DscKNTkTqPbNwLNNBjuSzaG9Vp2KGtKJr?cluster=devnet) |
-| Redeemable mint (UXD)  | [BUQkS5pVoUnATubvVppVocP9zuP1NmaX4yghosMMA5i7](https://explorer.solana.com/address/BUQkS5pVoUnATubvVppVocP9zuP1NmaX4yghosMMA5i7?cluster=devnet) |
-| Controller             | [AMuPp7s264VEFzFhLgaSekL8RZm27pFxZUUevc7WDDFA](https://explorer.solana.com/address/AMuPp7s264VEFzFhLgaSekL8RZm27pFxZUUevc7WDDFA?cluster=devnet) |
-| Identity Depository    | [E7Q5whomDHJVFvebDhmfigrHHJgKwj7CbvJGn9ZuZhtB](https://explorer.solana.com/address/E7Q5whomDHJVFvebDhmfigrHHJgKwj7CbvJGn9ZuZhtB?cluster=devnet) |
-| Credix Depository      | [9U9cDJDSYzP9N17zZCFaQfr6HPfALXr8RQPrR2y9jHgs](https://explorer.solana.com/address/9U9cDJDSYzP9N17zZCFaQfr6HPfALXr8RQPrR2y9jHgs?cluster=devnet) |
-| Mercurial Depository   | [EzQnQq36kPi4vY4MEMcnrpqcEX2bTahrDbTXcFTUtEdD](https://explorer.solana.com/address/EzQnQq36kPi4vY4MEMcnrpqcEX2bTahrDbTXcFTUtEdD?cluster=devnet) |
+| Redeemable mint (UXD)  | [AgM8ntTipTimvUgjGKwumunfPvLhcjNLQ8F147oZvXhm](https://explorer.solana.com/address/AgM8ntTipTimvUgjGKwumunfPvLhcjNLQ8F147oZvXhm?cluster=devnet) |
+| Controller             | [UbgH7eSCxgbr7EWk3LYSA1tVCpX617oefgcgzZu5uvV](https://explorer.solana.com/address/UbgH7eSCxgbr7EWk3LYSA1tVCpX617oefgcgzZu5uvV?cluster=devnet)   |
+| Identity Depository    | [AZ8UfkMT6PzzNjauBkwf7XctUVHSRVapzcGqsTFeNs5h](https://explorer.solana.com/address/AZ8UfkMT6PzzNjauBkwf7XctUVHSRVapzcGqsTFeNs5h?cluster=devnet) |
+| Mercurial Depository   | [Hpi7FwVY6zUGvbgL2GUPnEmmnU1YfTDZsYPc1oq2ret9](https://explorer.solana.com/address/Hpi7FwVY6zUGvbgL2GUPnEmmnU1YfTDZsYPc1oq2ret9?cluster=devnet) |
+| Credix Depository      | [GbT1xUWY1ABi71UjjcUKbHrupYjf8nrwrijt3TjGaK2K](https://explorer.solana.com/address/GbT1xUWY1ABi71UjjcUKbHrupYjf8nrwrijt3TjGaK2K?cluster=devnet) |
 
 Note: to get devnet's USDC, head to the faucet here: https://spl-token-faucet.com/?token-name=USDC-Dev
 
