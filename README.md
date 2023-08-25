@@ -44,6 +44,7 @@ A `Depository` account represents one strategy of investment.
 
 | Program                | Address                                                                                                                                         |
 | ---------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
+| Authority (script key) | [aca3VWxwBeu8FTZowJ9hfSKGzntjX68EXh1N9xpE1PC](https://explorer.solana.com/address/aca3VWxwBeu8FTZowJ9hfSKGzntjX68EXh1N9xpE1PC?cluster=devnet)   |
 | UXD Program            | [EqMrasrCXsbE6mpXaopUH1qip7auwX4AF5UWWpXaLr6u](https://explorer.solana.com/address/EqMrasrCXsbE6mpXaopUH1qip7auwX4AF5UWWpXaLr6u?cluster=devnet) |
 | Collateral mint (USDC) | [Gh9ZwEmdLJ8DscKNTkTqPbNwLNNBjuSzaG9Vp2KGtKJr](https://explorer.solana.com/address/Gh9ZwEmdLJ8DscKNTkTqPbNwLNNBjuSzaG9Vp2KGtKJr?cluster=devnet) |
 | Redeemable mint (UXD)  | [BUQkS5pVoUnATubvVppVocP9zuP1NmaX4yghosMMA5i7](https://explorer.solana.com/address/BUQkS5pVoUnATubvVppVocP9zuP1NmaX4yghosMMA5i7?cluster=devnet) |
