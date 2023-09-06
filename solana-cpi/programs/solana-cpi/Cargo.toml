@@ -1,0 +1,26 @@
+[package]
+name = "solana-cpi"
+version = "0.1.0"
+description = "Example for the UXD program CPI"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib", "lib"]
+name = "solana_cpi"
+
+[features]
+no-entrypoint = []
+no-idl = []
+no-log-ix-name = []
+cpi = ["no-entrypoint"]
+default = ["development"]
+production = []
+development = []
+
+[dependencies]
+anchor-lang = "0.26.0"
+anchor-spl = "0.26.0"
+uxd-cpi = { version = "8.1.4", features = ["development"] }
+uxd = { git = "https://github.com/UXDProtocol/uxd-program", features = [
+    "no-entrypoint",
+] }
